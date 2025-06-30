@@ -1,3 +1,2 @@
-import pandas as pd
-print("Env works! ✅")
-
+# test.py
+print("Hello, GitHub! This is my test script.")
