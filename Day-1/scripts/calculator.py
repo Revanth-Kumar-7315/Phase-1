@@ -1,11 +1,11 @@
-a = int(input("Enter a number :"))
-b = int(input("Enter a number :"))
+x = int(input("Enter a number = "))
+y = int(input("Enter a number = "))
 
-print("Sum :-", a + b)
-print("Difference :-", a - b)
-print("Product :-", a * b)
+print(f"Sum = {x+y}")
+print(f"Difference = {x-y}")
+print(f"Product = {x*y}")
 
-if b != 0:
-    print("Divisor :-", a / b)
+if y != 0:
+    print(f"Divisor = {x/y}")
 else:
-    print("Cannot be divided by Zero")
+    print("Division not possible")
