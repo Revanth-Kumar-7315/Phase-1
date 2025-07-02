@@ -1,5 +1,5 @@
 Username = "Revanth"
-Password = 1234   
+Password = 1234
 
 input_username = input("Enter your username: ")
 input_password = input("Enter your password: ")

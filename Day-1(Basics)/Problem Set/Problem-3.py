@@ -1,4 +1,3 @@
-
 # Q3. String Reverser
 # Take a string input and print it reversed.
 # Bonus: Also print the length of the string.

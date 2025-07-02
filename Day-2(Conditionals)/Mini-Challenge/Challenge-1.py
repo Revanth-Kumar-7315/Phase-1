@@ -31,6 +31,8 @@ Normalize input for comparison (e.g., city.lower() == 'hyderabad')
 Use f-strings to include name in the response
 Optionally wrap logic in a function like check_eligibility()
 """
+
+
 def check_eligibility():
     name = input("Enter your name: ").strip()
     age = int(input("Enter your age: ").strip())
@@ -40,5 +42,7 @@ def check_eligibility():
         print("You're part of the Hyderabad Club!")
     else:
         print("Not eligible yet.")
+
+
 if __name__ == "__main__":
     check_eligibility()

@@ -3,6 +3,6 @@
 
 Age = float(input("Enter your age in years : "))
 
-Age_in_days = Age*365
+Age_in_days = Age * 365
 
 print(f"You are {Age_in_days} days old")

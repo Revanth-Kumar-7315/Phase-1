@@ -18,15 +18,15 @@ Print: "Your BMI is X and you are Y."""
 Height = float(input("Enter your height (in meters) : "))
 Weight = float(input("Enter your Weight (in kgs) : "))
 
-BMI = (Weight)/(Height**2)
-BMI = round(BMI,2)
+BMI = (Weight) / (Height**2)
+BMI = round(BMI, 2)
 if Height <= 0 and Weight <= 0:
     print("Not Possible!")
 elif BMI <= 18.5:
     print(f"Your BMI is {BMI}")
     print("You are Underweight")
 elif 18.5 < BMI <= 24.9:
-    print(f"Your BMI is {BMI}")    
+    print(f"Your BMI is {BMI}")
     print("You are Normal")
 elif 24.9 < BMI <= 29.9:
     print(f"Your BMI is {BMI}")
