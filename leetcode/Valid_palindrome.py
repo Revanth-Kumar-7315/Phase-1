@@ -15,6 +15,7 @@ def isPalindrome(s):
     s = "".join(charecters_of_string)
     return s == s[::-1]
 
+
 # We can also use a more concise approach using isalnum() to filter characters:
 # def isPalindromeConcise(s):
 #     s = ''.join(c.lower() for c in s if c.isalnum())
