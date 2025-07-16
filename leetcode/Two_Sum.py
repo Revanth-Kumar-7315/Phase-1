@@ -13,3 +13,13 @@ def twoSum(nums, target):
             if nums[i] + nums[j] == target:
                 return [i, j]
     return []  # Return an empty list if no solution is found
+
+
+# HashMap Solutiondef twoSumHashMap(nums, target):
+"""   def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen = {}
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in seen:
+                return [i, seen[complement]]
+            seen[num] = i """
